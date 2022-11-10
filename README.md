@@ -8,12 +8,11 @@
 
 4. Install dependency using
 
-'''
-pip install -r requirements.txt
-'''
+
+  pip install -r requirements.txt
+
 
 5. using terimal, run:
 
-'''
-python3 src/main.py
-'''
+
+  python3 src/main.py
