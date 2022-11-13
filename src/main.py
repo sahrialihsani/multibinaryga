@@ -1,10 +1,10 @@
-from utils import load_config
+from src.utils import load_config
 
-from initialize import init_pop
-from fitness import fitness_func, decoding, find_max, get_x1_x2, get_best_gen
-from selection import cumprob, selection
-from crossover import parent_selection, crossover, merge_crossover
-from mutation import mutation
+from src.initialize import init_pop
+from src.fitness import fitness_func, decoding, find_max, get_x1_x2, get_best_gen
+from src.selection import cumprob, selection
+from src.crossover import parent_selection, crossover, merge_crossover
+from src.mutation import mutation
 
 
 def main(params):
