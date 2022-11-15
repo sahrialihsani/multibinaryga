@@ -1,5 +1,5 @@
-import sys
-sys.path.append("C:\\Users\\ACER\\Desktop\\multi_binary_ga")
+# import sys
+# sys.path.append("C:\\Users\\ACER\\Desktop\\multi_binary_ga")
 from src.utils import load_config
 from src.initialize import init_pop
 from src.fitness import fitness_func, decoding, find_max, get_x1_x2, get_best_gen
