@@ -1,3 +1,6 @@
+import sys
+sys.path.append("C:\\Users\\ACER\\Desktop\\multi_binary_ga")
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 

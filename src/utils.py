@@ -1,7 +1,6 @@
 from importlib.abc import Loader
 import yaml
 
-
 def load_config():
 
     config_path = "./config/params.yaml"
